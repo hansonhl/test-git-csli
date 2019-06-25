@@ -1,0 +1,41 @@
+# Solutions
+
+# Getting Ready
+
+Use `cd` to move into the directory of the problem set. You may need to use the
+Mac Finder/Windows Explorer to see where you saved it.
+
+# Tidying up
+
+$ mkdir Pictures
+$ mv Stanford1.jpg Pictures/
+$ cd Pictures
+$ cp Stanford1.jpg Stanford2.jpg
+$ cp Stanford1.jpg Stanford3.jpg
+$ rm -r junk
+
+# Looking for stuff
+
+$ less my_languages.txt
+$ cat my_languages.txt
+$ grep Lisp my_languages.txt
+Lisp
+
+$ wc -l fruitlist.txt
+90 fruitlist.txt
+
+$ cat Pictures/Stanford1.jpg  # or less
+...gibberish...
+
+$ grep David,Ortiz Baseball/Players.csv
+ortizda01,1975,11,18,D.R.,Distrito Nacional,Santo Domingo,,,,,,,David,Ortiz,David Americo,250,76,L,L,1997-09-02,2013-09-29,ortid001,ortizda01
+
+$ sort -n Baseball/2013Salaries.csv
+...
+24285714,NYA,sabatcc01
+24642857,NYA,wellsve01
+25000000,PHI,leecl02
+29000000,NYA,rodrial01  # Alex Rodriguez
+
+$ grep rodrial01 Baseball/Players.csv
+rodrial01,1975,7,27,USA,NY,New York,,,,,,,Alex,Rodriguez,Alexander Emmanuel,225,75,R,R,1994-07-08,2013-09-25,rodra001,rodrial01
