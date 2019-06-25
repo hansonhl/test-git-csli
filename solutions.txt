@@ -10,7 +10,7 @@ Mac Finder/Windows Explorer to see where you saved it.
 $ mkdir Pictures
 $ mv Stanford1.jpg Pictures/
 $ cd Pictures
-$ cp Stanford1.jpg Stanford2.jpg
+$ anford1.jpg Stanford2.jpg
 $ cp Stanford1.jpg Stanford3.jpg
 $ rm -r junk
 
